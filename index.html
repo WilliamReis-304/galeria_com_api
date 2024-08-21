@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Quiz Interativo</title>
+    <script src="script.js" defer></script>
+    <title>Galeria de Raças de Cachorros</title>
 </head>
 <body>
-    <div class="quiz-container">
-        <div id="question" class="question"></div>
-        <div id="options" class="options"></div>
-        <div id="feedback" class="feedback"></div>
-        <button id="reload" class="reload-button" style="display:none;" onclick="reloadQuiz()">Recomeçar</button>
-    </div>
-    <script src="script.js"></script>
+    <h1>Galeria de Raças de Cachorros</h1>
+    <div id="loading">Carregando...</div>
+    <div id="error"></div>
+    <div id="gallery"></div>
+
+    <script src="gallery.js"></script>
 </body>
 </html>
